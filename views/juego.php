@@ -27,12 +27,12 @@
     ?>
 </head>
 
-<body>
+<body class = "body-juego">
     <div class = "container">
 
    
     <h2>Gana el primero en llegar a 2000 metros!</h2>
-    <table class="table table-danger">
+    <table class="table table-info ">
         <thead>
             <tr>
                 <th scope="col">Jugador</th>
@@ -85,7 +85,7 @@
 
                                     <td>
 
-                                        <button type="submit" class="btn btn-outline-success" name="btnAvanzar" disabled="true" id="btnAvanzar<?php echo $fila['id'] ?>">Avanzar</button>
+                                        <button type="submit" class="btn btn-outline-danger" name="btnAvanzar" disabled="true" id="btnAvanzar<?php echo $fila['id'] ?>">Avanzar</button>
 
                                     </td>
                         <?php

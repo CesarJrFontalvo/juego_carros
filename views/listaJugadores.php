@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
+    
 
     <title>Carrera</title>
 
@@ -33,10 +34,10 @@
 
 </head>
 
-<body>
+<body class="body-lista">
     <div class = "container">
-    <h1>Jugadores permitidos</h1>
-    <table class="table table-danger">
+    <h1 class="conten">Jugadores permitidos</h1>
+    <table class="table table-info">
         <thead>
             <tr>
                 <th scope="col">#</th>
@@ -118,16 +119,17 @@
     if ($carrilesSeleccionados[0]['cantidad'] == $cantidadCarriles[0]['carriles'] && $conductoresSeleccionados[0]['cantidad'] == $cantidadCarriles[0]['carriles']) {
 
     ?>
+        <div class="col text-center">
         <form action="../controllers/ctrlJugador.php" method="post">
-            <button type="submit" class="btn btn-success" name="btnJugar">Empezar a jugar</button>
+            <button type="submit" class="btn btn-success" name="btnJugar"><h4>Empezar a jugar</h4></button>
             <input type="hidden" name="txtIdPista" value="<?php echo $_GET['idPista'] ?>">
         </form>
-
+        </div>
     <?php
 
     } else {  
-    echo"<h4>Debes seleccionar al conductor con su auto, al igual que el carril a correr
-     <br> en el botón configurar, para empezar el juego.</h4>";
+    echo"<h3 class='conten3'>Debes seleccionar al conductor con su auto, al igual que el carril a correr
+     <br> en el botón configurar, para empezar el juego.</h3>";
     }
 
     ?>

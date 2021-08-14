@@ -1,3 +1,64 @@
+.lanzar {
+    background-color: black;
+  }
+  
+  .puntaje {
+    overflow: hidden;
+  }
+  
+  .numeroDado {
+      margin: 1em;
+      padding: 1em;
+      float:left;
+  }
+  
+  h2{
+    
+    color: black;
+  }
 
+  .conten{
+      color:black ;
+      
+  }
+  .conten3{
+    color:black ;
+    
+}
 
+  
+  .body-index{
+    background: url(img4.jpg);
+    background-size: 100vw, 100vh;
+    background-repeat: no-repeat;
+   
+  }
 
+  
+  .body-lista{
+    background: url(img3.jpg);
+    background-size: 100vw, 100vh;
+    background-repeat: no-repeat;
+   
+  }
+
+  .body-pista{
+    background: url(img2.jpg);
+    background-size: 100vw, 100vh;
+    background-repeat: repeat-x;
+   
+  }
+
+  .body-juego{
+    background: url(img5.jpg);
+    background-size: 100vw, 100vh;
+    background-repeat: no-repeat;
+   
+  }
+
+  .body-ganador{
+    background: url(img2.jpg);
+    background-size: 100vw, 100vh;
+    background-repeat: no-repeat;
+   
+  }

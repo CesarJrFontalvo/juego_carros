@@ -23,11 +23,11 @@
 
 </head>
 
-<body>
+<body class="body-pista">
     <div class = "container">
-        <div style="background-color:#aaa">
+        <div style="background-color:#CCCCFF">
     <h1>Seleccionar pista para empezar juego</h1>
-    <table class="table  table-danger">
+    <table class="table  table-info">
         <thead>
             <tr>
                 <th scope="col">#</th>
@@ -69,9 +69,9 @@
     
    <!-- Clasificación ---------------------------------------------------------------------->
 
-    <div style="background-color:#aaa" >
+   <div style="background-color:#CCCCFF">
     <h1>Clasificación</h1>
-    <table class="table table-danger">
+    <table class="table table-info">
         <thead>
             <tr>
                 <th scope="col">Puesto</th>
@@ -108,9 +108,9 @@
     <!-- Partidas jugados ---------------------------------------------------------------- -->
     
     
-    <div style="background-color:#aaa">
+    <div style="background-color:#CCCCFF">
     <h1>Partidas jugadas</h1>
-    <table class="table table-danger">
+    <table class="table table-info">
         <thead>
             <tr>
                 <th scope="col">Número de partida</th>
