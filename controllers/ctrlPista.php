@@ -1,6 +1,6 @@
 <?php 
 
-require('./models/pista.php');
+require('../models/pista.php');
 
 function mostrarPistas(){
 
