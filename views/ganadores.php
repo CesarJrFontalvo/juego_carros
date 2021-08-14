@@ -26,7 +26,7 @@
 
 <body>
     <div class ="container">
-    <h1>Elegir pista</h1>
+    <h1>Podio de la carrera</h1>
     <table class="table table-info">
         <thead>
             <tr>
