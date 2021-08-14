@@ -23,7 +23,7 @@ class Conectar {
 
         try {
 
-            $conexion = "mysql:host=" . $this->host . ";db=" . $this->db . ";charset=" . $this->charset;
+            $conexion = "mysql:host=" . $this->host . ";dbname=" . $this->db . ";charset=" . $this->charset;
 
             $options = [
                 PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
