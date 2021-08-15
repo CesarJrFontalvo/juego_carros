@@ -1,0 +1,8 @@
+1°) Este es un programa creado con PHP, por esta razón es necesario un servidor (XAMPP, WAMPSERVER) para ejecutarse.
+
+2°) Para empezar el juego es necesario escoger los conductores y sus autos asignados,
+también el carril en el que correrán, esto será en el botón configuración.
+
+3°) Para jugar hay que darle click en el dado y luego en avanzar, 
+gana el jugador que primero llegue a 2000 metros, dependiendo de los carriles escogidos
+ se asignara el podio mínimo de tres jugadores.
