@@ -77,7 +77,7 @@ CREATE TABLE `carro` (
 INSERT INTO `carro` (`id`, `color`, `id_conductor`) VALUES
 (1, 'Amarillo', 1),
 (2, 'Azul', 2),
-(3, 'Rojo', 3),
+(3, 'Violeta', 3),
 (4, 'Negro', 4),
 (5, 'Blanco', 5),
 (6, 'Verde', 6);

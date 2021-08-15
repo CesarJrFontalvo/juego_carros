@@ -6,3 +6,5 @@ también el carril en el que correrán, esto será en el botón configuración.
 3°) Para jugar hay que darle click en el dado y luego en avanzar, 
 gana el jugador que primero llegue a 2000 metros, dependiendo de los carriles escogidos
  se asignara el podio mínimo de tres jugadores.
+
+4°) La base de datos está hecha con MySQL, en la carpeta db se puede encontrar el archivo “juego_carrera.sql”
